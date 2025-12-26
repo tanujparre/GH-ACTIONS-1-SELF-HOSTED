@@ -1,0 +1,9 @@
+name: gha-test-self-hosted
+on:
+  push
+jobs:
+  second_job:
+    runs_on: self-hosted
+    steps:
+      - name: message
+        run: echo "Welcome to githyb actuions"
