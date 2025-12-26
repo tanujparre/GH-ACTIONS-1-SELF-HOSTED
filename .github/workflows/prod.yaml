@@ -3,7 +3,7 @@ on:
   push
 jobs:
   second_job:
-    runs_on: self-hosted
+    runs-on: self-hosted
     steps:
       - name: message
         run: echo "Welcome to githyb actuions"
